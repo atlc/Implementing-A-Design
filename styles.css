@@ -1,0 +1,14 @@
+@font-face {
+    font-family: PlayfairDisplay700;
+    src: url(./fonts/PlayfairDisplay700.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay-Bold;
+    src: url(./fonts/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay700;
+    src: url(./fonts/PlayfairDisplay-Bold.woff);
+}

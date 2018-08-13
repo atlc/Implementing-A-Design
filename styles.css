@@ -12,3 +12,46 @@
     font-family: PlayfairDisplay700;
     src: url(./fonts/PlayfairDisplay-Bold.woff);
 }
+
+* {
+    font-family: 'PlayfairDisplay700';
+}
+
+.name {
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 1.5rem;
+    color: rgb(228, 101, 3);
+    margin: 12px;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+.nav-item {
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: underline rgb(228, 101, 3);
+}
+
+#headshot {
+    padding: 50px;
+    z-index: 0;
+}
+
+#tagline > h1 {
+    padding-left: 10%;
+    padding-top: 45%;
+    color: rgb(228, 101, 3);
+    font-size: 3.5rem;
+}
+
+#tagline > h4 {
+    font-family: 'PlayfairDisplay-Bold';
+    font-weight: 900;
+    padding-left: 10%;
+}
+
+img.bottomtext {
+    position: absolute;
+    vertical-align: text-bottom;
+}

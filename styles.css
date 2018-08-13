@@ -13,12 +13,23 @@
     src: url(./fonts/PlayfairDisplay-Bold.woff);
 }
 
-* {
+.playfair {
     font-family: 'PlayfairDisplay700';
 }
 
-.name {
+.bolded {
     font-family: 'PlayfairDisplay-Bold';
+}
+
+.card-header {
+    background: rgba(0,0,0,0);
+}
+
+.card {
+    border: 0px;
+}
+
+.name {
     font-size: 1.5rem;
     color: rgb(228, 101, 3);
     margin: 12px;
@@ -27,14 +38,24 @@
 }
 
 .nav-item {
-    font-family: 'PlayfairDisplay-Bold';
     font-size: 1.5rem;
     color: black;
     text-decoration: underline rgb(228, 101, 3);
 }
 
+.bio {
+    border: 2px solid black;
+}
+
+.svg-text {
+    height: 1rem;
+    width: auto;
+}
+
 #headshot {
-    padding: 50px;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 50px;
     z-index: 0;
 }
 
@@ -43,15 +64,17 @@
     padding-top: 45%;
     color: rgb(228, 101, 3);
     font-size: 3.5rem;
+    text-shadow: 2px 2px 2px white;
 }
 
 #tagline > h4 {
     font-family: 'PlayfairDisplay-Bold';
     font-weight: 900;
     padding-left: 10%;
+    text-shadow: 2px 2px 2px white;
 }
 
-img.bottomtext {
-    position: absolute;
-    vertical-align: text-bottom;
+.jumbotron {
+    margin-top: 3em;
+    padding-top: 40px;
 }

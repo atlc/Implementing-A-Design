@@ -1,43 +1,173 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Andrew Lloyd's Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
+
 <body>
     <!-- Header container -->
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-4">
-                <p class="name text-center">Andrew Cartwright</p>
+                <p class="name text-center bolded">Andrew Cartwright</p>
             </div>
             <div class="col-5">
                 <nav class="navbar navbar-expand-lg">
                     <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link">About</a>
-                        <a href="#" class="nav-item nav-link">Experience</a>
-                        <a href="#" class="nav-item nav-link">Work</a>
-                        <a href="#" class="nav-item nav-link">Contact</a>
+                        <a href="#about" class="nav-item nav-link bolded">About</a>
+                        <a href="#experience" class="nav-item nav-link bolded">Experience</a>
+                        <a href="#work" class="nav-item nav-link bolded">Work</a>
+                        <a href="#" class="nav-item nav-link bolded">Contact</a>
                     </div>
                 </nav>
             </div>
         </div>
     </div>
+
     <!-- Headshot and tagline container -->
     <div class="container">
         <div class="row">
-            <img class="col-3 bottomtext img-fluid" id="headshot" src="./images/headshot.png" />
+            <img class="col-3 img-fluid" id="headshot" src="./images/headshot.png" />
             <div id="tagline" class="offset-2 col-7">
-                <h1>Full-stack JavaScript Developer</h1>
-                <h4>BIRMINGHAM, AL</h4>
+                <h1 class="bolded">Full-stack JavaScript Developer</h1>
+                <h4 class="playfair">BIRMINGHAM, AL</h4>
             </div>
         </div>
         <div class="row justify-content-end">
         </div>
     </div>
+
+    <!-- Introduction and biography container -->
+    <div class="container" id="about">
+        <div class="jumbotron">
+            <div class="row justify-content-center">
+                <div class="col-5 text-right">
+                    <h1 class="playfair">Hello</h1>
+                    <h4 class="playfair">Andrew Cartwright</h4>
+                    <p class="text-muted">Jefferson State Community College</p>
+                    <p class="text-muted">Associate of Computer Programming</p>
+                </div>
+                <div class="col-5">
+                    <div class="card">
+                        <div class="card-body bio">
+                            <p>Birmingham, AL native. Enjoys the fields of software, electronics, environmental technology,
+                                and healthcare. Working towards unifying my passions for the above topics. Currently enrolled
+                                in Covalence’s online Full Stack Bootcamp to further develop my skillset.</p>
+                            <p>Avid cycling, hiking, camping, rock climbing, homebrewing, cooking, PC building, and animal enthusiast.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience container -->
+    <div class="container" id="experience">
+        <div class="row">
+            <div class="card-deck justify-content-center">
+                <div class="card mb-3 bg-white col-sm-5">
+                    <div class="card-header font-weight-bold">Jefferson State Community College
+                        <a href="http://www.jeffersonstate.edu/">
+                            <img class="svg-text" src="./images/icons/linkgray.svg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Lab Technician</h5>
+                        <p class="card-text">Maintained the 4 computer labs on the top floor, including supporting users with all desktop needs,
+                            providing general Windows support and miscellaneous hardware & printer support.</p>
+                    </div>
+                </div>
+                <div class="card mb-3 bg-white col-sm-5">
+                    <div class="card-header font-weight-bold">Caldwell Mill Animal Clinic
+                        <a href="https://cmacvet.com/">
+                            <img class="svg-text" src="./images/icons/linkgray.svg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Kennel Technician/Vet Technician Assistant</h5>
+                        <p class="card-text">Responsibilities included day-to-day upkeep of the clinic and care for the animals present for boarding,
+                            daycare, and veterinary care, and assisting the doctors and the vet techs in their roles as needed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-deck justify-content-center">
+                <div class="card mb-3 bg-white col-sm-5">
+                    <div class="card-header font-weight-bold">Uber & Lyft
+                        <a href="https://www.reddit.com/r/lyftdrivers+uberdrivers/">
+                            <img class="svg-text" src="./images/icons/linkgray.svg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Rideshare Driver</h5>
+                        <p class="card-text">While operating as a rideshare driver for both services, I provided excellent service, maintaining
+                            a perfect 5.00/5.00 rating and consistently received the "Above and Beyond" driver award with
+                            Uber.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mb-3 bg-white col-sm-5">
+                    <div class="card-header font-weight-bold">Vincari
+                        <a href="https://vincari.com/">
+                            <img class="svg-text" src="./images/icons/linkgray.svg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Software Engineer</h5>
+                        <p class="card-text">Created new features and fixed bugs for our EMR webapp, on a stack of Ruby on Rails, Angular.js,
+                            MySQL, and AWS (EC2, VPC, and S3). A notable project I made was a logging framework to provide
+                            our Implementation & Support team an invaluable tool with which they could easily assist our
+                            clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-deck justify-content-center">
+                <div class="card mb-3 bg-white col-sm-5">
+                    <div class="card-header font-weight-bold">Hubbard Systems
+                        <a href="http://www.hubbardsystems.com">
+                            <img class="svg-text" src="./images/icons/linkgray.svg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Application Support Analyst</h5>
+                        <p class="card-text">I trained and assisted our clients in everyday usage of our accounting application, and in addition
+                            to gaining valuable accounting, legal, and computer support skills, got involved with both Windows
+                            & Linux server administration, and T-SQL + SSMS with for a subset of our application.</p>
+                    </div>
+                </div>
+                <div class="card mb-3 bg-white col-sm-5">
+                    <div class="card-header font-weight-bold">Greystone Golf & Country Club
+                        <a href="https://www.greystonecc.com/">
+                            <img class="svg-text" src="./images/icons/linkgray.svg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Server, Bartender, Event Staff</h5>
+                        <p class="card-text">Worked in various roles related to dining - including serving in a fast, casual, everyday environment
+                            all the way to our fine dining. As event staff, I worked closely with clients as we prepared
+                            and setup events from small birthday parties to holiday parties, to giant golf tournaments or
+                            weddings spanning hundreds of people.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work container-->
+    <div class="container" id="work">
+        
+    </div>
 </body>
+
 </html>

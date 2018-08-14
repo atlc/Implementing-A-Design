@@ -78,3 +78,33 @@
     margin-top: 3em;
     padding-top: 40px;
 }
+
+#contact {
+    padding-top: 60px;
+}
+
+.svg-footer {
+    height: 3em;
+    width: auto;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+}
+
+.greyed {
+    background-color: rgba(85, 85, 85, 0.1);
+}
+
+.large {
+    font-size: 3.5rem;
+}
+
+.btn {
+    background-color: rgb(228, 101, 3);
+    color: white;
+}
+
+.big-hr {
+    border: 2px solid black;
+}
